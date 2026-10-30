@@ -21,3 +21,4 @@ t.foreach(value =>{
     console.log
 }) it runs throgh the list and runs ur fucnction once per item
 t.map(value => value*2) craets a new row which is twicw thw amount os the first row
+React works best with data that isn't changed in place. concat gives you a new array, while push changes the old one.
